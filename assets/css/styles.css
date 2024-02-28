@@ -1,0 +1,175 @@
+/* INICIO RESET DE ESTILOS */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* FIN RESET DE ESTILOS */
+
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* INICIO ESTILOS NAVBAR */
+
+#navbar {
+    background-color:#000F08;
+    padding: 28px 30px;
+    /* height: 100px; */
+}
+
+#navbar ul li{
+    display: inline-block;
+   /*  MARGIN A A TODOS LADOS */
+    /* margin: 0px; */
+   /*  ARRIBA 0PX / IZQUIERDA Y DERECHA 5PX / ABAJO 0PX; */
+    /* margin: 0 5px 0px; */
+   /*  ARRIBA / DERECHA /ABAJO / IZQUIERDA */
+   /*  margin: 0 5px 0px 5px; */
+   /* MARGIN ARRIBA Y ABAJO 0PX E IZQUIERDA Y DERECHA 5PX */
+   margin: 0px 5px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#navbar-brand {
+    padding-right: 30px;
+}
+
+
+/* FIN ESTILOS NAVBAR */
+
+
+/* INICIO ESTILOS HEADER */
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-size: cover;
+    background-position: center;
+    /* RELLENO ARRIBA */
+    padding-top: 52px;
+    /* RELLENO ABAJO */
+    padding-bottom: 179px;
+    
+}
+
+#titulo-header, #subtitulo-header {
+    text-align: end;
+    color: white;
+}
+
+#titulo-header {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#subtitulo-header{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* FIN DE ESTILOS HEADER */
+
+/* INICIO ESTILOS SECCIÓN WE WORK */
+
+#we-work{
+    text-align: center;
+    padding-top: 153px;
+    padding-bottom: 131px;
+}
+
+#we-work img {
+    width: 519px;
+    height: 344px;
+}
+
+#we-work h2 {
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+
+#we-work p {
+    font-size: 25px;
+}
+
+
+
+/* FIN ESTILOS SECCIÓN WE WORK */
+
+
+/* INICIO ESTILOS SECCIÓN CHARLAS */
+
+#proximas-charlas {
+    font-size: 0px;
+    padding: 90px 0px;
+    background-color: #A4452C;
+}
+#proximas-charlas .wrapper-img{
+    display: inline-block;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+
+#proximas-charlas .wrapper-texto{
+    display: inline-block;
+    width: 50%;
+    color:white;
+    /* padding-left: 40px; */
+}
+#proximas-charlas .wrapper-texto h3{
+    font-size:40px;
+}
+
+#proximas-charlas .wrapper-texto h4{
+    font-size:33px;
+}
+
+#proximas-charlas .wrapper-texto small{
+    font-size:20px;
+}
+
+#proximas-charlas .wrapper-texto p{
+    font-size:25px;
+}
+
+
+/* FIN ESTILOS SECCIÓN CHARLAS */
+
+/* INICIO ESTILO CHARLAS ANTERIORES */
+#eventos-anteriores{
+    display: flex;
+}
+
+
+
+/* FIN ESTILO CHARLAS ANTERIORES */
+
+/* INICIO ESTILOS FOOTER WEB */
+
+#footer-principal {
+    color: white;
+    background-color: #000F08;
+    text-align: center;
+}
+
+#footer-principal p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#footer-principal .wrapper-iconos {
+    font-size: 70px;
+}
+
+
+/* FIN ESTILOS FOOTER WEB */
